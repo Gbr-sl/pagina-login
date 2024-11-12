@@ -21,6 +21,7 @@ main{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.349);
 
     transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 img{
@@ -50,12 +51,38 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateX(5px);
+    height: 30px;
+    width: 95%;
+    background-color: #5f2c82;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#iemail{
+    transform: translateX(14px);  /*Arrastando ele um pouco para a direita*/
+    height: 31.2px;
+    width: calc(100% - 40px);  /*Fazendo calculo de altura*/
+    background-color: #def3f2;
 }
 
 .senha{
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: translateX(5px);
+    width: 96%;
+    height: 30px;
+    background-color: #5f2c82;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#isenha{
+    transform: translateX(14px);  /*Arrastando ele um pouco para a direita*/
+    height: 31.2px;
+    width: calc(100% - 47px);  /*Fazendo calculo de altura*/
+    background-color: #def3f2;
 }
 
 input{
@@ -63,6 +90,11 @@ input{
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.material-symbols-outlined{
+    transform: translateX(10px);
+    color: white;
 }
 
 .bt1{
@@ -85,3 +117,6 @@ input{
     background-color: white;
     color: #49a09d;
 }
+
+
+

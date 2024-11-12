@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
-
+    /*Para tablets*/
     body{
-        background-image: linear-gradient(to bottom #5f2c82, #49a09d);
+        background-image: linear-gradient(to top, #49a09d,#5f2c82);
     }
 
     img{
@@ -13,9 +13,11 @@
         display: flex;
         flex-direction: row;
         width: 70vw;
+        height: 60vh;
     }
 
     .logins{
+        margin: auto;
         padding: 10px;
     }
 
@@ -26,6 +28,7 @@
     img{
         border-radius: 0 10px 10px 0;
         height: 100%;
+
     }
 
     main{
@@ -33,10 +36,16 @@
         display: flex;
         flex-direction: row-reverse;
         width: 70vw;
+        height: 70vh;
     }
     
     .logins{
+        margin: auto;
         padding: 10px;
+    }
+
+    .bt1{
+        max-width: 100vw;
     }
 
 }
